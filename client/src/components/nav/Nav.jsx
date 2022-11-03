@@ -20,7 +20,7 @@ const Nav = () => {
 		<>
 			{location.pathname !== "/landing" && (
 				<S.Nav>
-					<S.Button onClick={handleClick}>Comidas </S.Button>
+					<S.Button onClick={handleClick}>comidas api</S.Button>
 					<S.brand src={brand} alt='one fork' />
 
 					<SearchBar />
