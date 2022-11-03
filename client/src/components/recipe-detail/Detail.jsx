@@ -38,7 +38,7 @@ const Detail = () => {
 				<S.headerText>
 					<S.title>{detail.title}</S.title>
 					<S.healthScore>
-						<span>Health Score</span>
+						<span>Puntaje</span>
 						<span> 💚{detail.healthScore}</span>
 					</S.healthScore>
 					<S.diets>
@@ -51,11 +51,11 @@ const Detail = () => {
 			</S.header>
 			<S.text>
 				<S.summary>
-					<h3>Summary</h3>
+					<h3>Resumen</h3>
 					<p>{convertToPlain(detail.summary)}</p>
 				</S.summary>
 				<S.instructions>
-					<h3>Instructions</h3>
+					<h3>Instrucciones</h3>
 					<ol>
 						{detail.steps?.length &&
 							detail.steps.map((el, index) => {
