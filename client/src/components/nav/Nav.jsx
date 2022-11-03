@@ -29,7 +29,7 @@ const Nav = () => {
 							Crear receta
 						</S.Button>
 
-						<S.Button onClick={handleClick}>Hogar</S.Button>
+						<S.Button onClick={handleClick}>Home</S.Button>
 					</S.Wrapper>
 				</S.Nav>
 			)}
