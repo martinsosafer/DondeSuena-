@@ -9,7 +9,7 @@ const Landing = () => {
 
 	return (
 		<LandingPage>
-			<Button onClick={() => navigate("/")}>LET'S COOK MASTER CHEFFff</Button>
+			<Button onClick={() => navigate("/")}>LET'S COOK MASTER CHEFF</Button>
 		</LandingPage>
 	);
 };
