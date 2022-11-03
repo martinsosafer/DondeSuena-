@@ -5,7 +5,7 @@ import * as S from "./styled.loading";
 const Loading = () => {
 	return (
 		<S.container>
-			<S.image src={`${loadingGif}`} alt='loadiiiing' />
+			<S.image src={`${loadingGif}`} alt='loading gif' />
 		</S.container>
 	);
 };
