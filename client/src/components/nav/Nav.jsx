@@ -20,16 +20,16 @@ const Nav = () => {
 		<>
 			{location.pathname !== "/landing" && (
 				<S.Nav>
-					<S.Button onClick={handleClick}>Food App</S.Button>
+					<S.Button onClick={handleClick}>Comidas api</S.Button>
 					<S.brand src={brand} alt='one fork' />
 
 					<SearchBar />
 					<S.Wrapper>
 						<S.Button onClick={() => navigate("/create")}>
-							Create Recipe
+							Crear receta
 						</S.Button>
 
-						<S.Button onClick={handleClick}>Home</S.Button>
+						<S.Button onClick={handleClick}>Hogar</S.Button>
 					</S.Wrapper>
 				</S.Nav>
 			)}
